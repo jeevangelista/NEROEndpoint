@@ -31,7 +31,7 @@ Sample JSON:
     ]
   }
 }
-/NERO?query={"term":"Renal Cell Carcinoma Kidney","mapping":{"Cell Line":["clo"],"Disease":["doid","mondo"],"Tissue":["uberon","bto"],"Small Molecule":["chebi","dron"]}}
+/NERO?query={"term":"Renal Cell Carcinoma Kidney","mapping":{"Tissue":["uberon","bto"],"Disease":["doid","mondo"],"Small Molecule":["chebi","dron"], "Cell Line":["clo"]}}
 '''
 @app.route('/NERO')
 def NERO():
