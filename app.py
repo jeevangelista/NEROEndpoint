@@ -7,7 +7,7 @@ app = Flask(__name__)
 Sample:
 https://www.ebi.ac.uk/ols/api/search?q=kidney&ontology=uberon,bto
 '''
-baseURL = "https://www.ebi.ac.uk/ols/api/search?q=%s&ontology=%s&queryFields=label,synonym&exact=true"
+baseURL = "https://www.ebi.ac.uk/ols/api/search?q=%s&ontology=%s&queryFields=label,synonym&exact=true&local=true"
 
 '''
 Sample JSON:
